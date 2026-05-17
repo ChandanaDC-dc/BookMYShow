@@ -34,7 +34,7 @@ public class ChatBotServlet extends HttpServlet {
 "AIzaSyDyEh_E1TKoOgpaW9qNO6ykcOAuPw-Hf50";
 
         URL url = new URL(
-"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key="
+"YOUR-API-KEY"
 + apiKey);
 
         HttpURLConnection conn =
